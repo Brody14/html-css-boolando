@@ -8,6 +8,10 @@ img {
     max-width: 100%;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
     margin: 0 auto;
     max-width: 900px;
@@ -22,9 +26,97 @@ img {
 
 /* MAIN */
 
+.main-content {
+    min-height: 600px;
+}
+
+.section-card {
+    padding: 20px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* CARD STYLE */
+.card {
+    margin: 20px;
+}
+
+.card-brand,
+.card-price {
+    font-weight: 300;
+    font-size: 10px; 
+}
+
+.card-description {
+    font-size: 14px;
+}
+
+.card-price {
+    color: red;
+    font-weight: 700;
+}
+
+.card-price > .card-old__price {
+    color: black;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.like {
+    background-color: white;
+    font-size: 17px;
+    padding: 0px 7px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.badge {
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 2px 4px;
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+}
+
+.discount {
+    background-color: red;
+}
+
+.card-img {
+    position: relative;
+}
+
 /* FOOTER */
 
 .page-footer {
     background-color: #000000;
     min-height: 70px;
+}
+
+/* DEBUG */
+
+.debug .container {
+    border: 1px solid coral;
+    padding: 20px;
+}
+
+.degub .row {
+    border: 1px dotted cornflowerblue;
+    padding: 20px;
+}
+
+.debug .col {
+    border: 1px dashed darkolivegreen;
+    padding: 20px;
+}
+
+.debug .card {
+    width: 220px;
+    background-color: lightpink;
 }
