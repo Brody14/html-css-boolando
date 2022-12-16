@@ -79,13 +79,20 @@ body {
     color: white;
     font-weight: 700;
     padding: 2px 4px;
+}
+
+.discount {
+    background-color: red;
     position: absolute;
     bottom: 14px;
     left: 0;
 }
 
-.discount {
-    background-color: red;
+.eco {
+    background-color: green;
+    position: absolute;
+    bottom: 14px;
+    left: 38px;
 }
 
 .card-img {
