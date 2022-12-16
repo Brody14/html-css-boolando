@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+/* HEADER */
+
+.main-header {
+    background-color: #FF6900;
+    min-height: 50px;
+}
+
+/* MAIN */
+
+/* FOOTER */
