@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
 img {
     max-width: 100%;
 }
@@ -17,11 +28,28 @@ body {
     max-width: 900px;
 }
 
+.align-center {
+    align-items: center;
+}
+
 /* HEADER */
 
 .main-header {
     background-color: #FF6900;
     min-height: 50px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 10px
+}
+
+.logo {
+    width: 150px;
+    padding-top: 5px;
 }
 
 /* MAIN */
@@ -31,7 +59,7 @@ body {
 }
 
 .section-card {
-    padding: 20px 0;
+    padding: 70px 0;
 }
 
 .row {
