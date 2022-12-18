@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* HEADER */
+
+.main-header {
+    background-color: #FF6900;
+    min-height: 50px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px #888888;
+}
+
+.menu {
+    display: flex;
+    gap: 10px
+}
+
+.logo {
+    width: 150px;
+    padding-top: 5px;
+}
+
+/* MAIN */
+
+.main-content {
+    min-height: 600px;
+}
+
+.section-card {
+    padding: 70px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-spacebtw {
+    justify-content: space-between;
+}
+
+.col.card {
+    flex-basis: 30%;
+    padding: 20px 0;
+}
+
+/* CARD STYLE */
+
+
+.card-brand,
+.card-price {
+    font-weight: 300;
+    font-size: 10px; 
+}
+
+.card-description {
+    font-size: 14px;
+}
+
+.card-price {
+    color: red;
+    font-weight: 700;
+}
+
+.card-price > .card-old__price {
+    color: black;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.like {
+    background-color: white;
+    font-size: 17px;
+    padding: 0px 7px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 1;
+}
+
+.badge {
+    font-size: 8px;
+    color: white;
+    font-weight: 700;
+    padding: 2px 4px;
+    z-index: 1;
+}
+
+.discount {
+    background-color: red;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+}
+
+.eco {
+    background-color: green;
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+}
+
+.no-discounts {
+    left: 0;
+}
+
+.card-img {
+    position: relative;
+}
+
+/* FOOTER */
+
+.page-footer {
+    background-color: #000000;
+    min-height: 70px;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer {
+    line-height: 30px;
+}
+
+.ref {
+    font-size: 14px;
+}
+
+.menu.footer,
+.social {
+    font-size: 9px;
+}
+
+/* HOVER EFFECTS */
+
+.hover-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+}
+
+.card-img:hover .hover-img {
+    opacity: 1;
+}
+
+/* DEBUG */
+
+.debug .container {
+    border: 1px solid coral;
+    padding: 20px;
+}
+
+.degub .row {
+    border: 1px dotted cornflowerblue;
+    padding: 20px;
+}
+
+.debug .col {
+    border: 1px dashed darkolivegreen;
+    padding: 20px;
+}
+
+.debug .card {
+    width: 220px;
+    background-color: lightpink;
+}
