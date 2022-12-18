@@ -40,6 +40,7 @@ body {
     color: white;
     position: fixed;
     width: 100%;
+    box-shadow: 0 2px #888888;
 }
 
 .menu {
@@ -65,6 +66,9 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.justify-spacebtw {
     justify-content: space-between;
 }
 
@@ -140,7 +144,24 @@ body {
 .page-footer {
     background-color: #000000;
     min-height: 70px;
+    color: white;
+    padding: 20px 0;
 }
+
+.footer {
+    line-height: 30px;
+}
+
+.ref {
+    font-size: 14px;
+}
+
+.menu.footer,
+.social {
+    font-size: 9px;
+}
+
+
 
 /* DEBUG */
 
